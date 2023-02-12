@@ -1,0 +1,42 @@
+<html>
+
+<head>
+    <title>Appliance Search</title>
+    <script src="bakery.js"></script>
+    <link rel="stylesheet" href="bakery.css">
+</head>
+
+<body>
+    <div class="main">
+        <h2>Bakery Story Caclulator</h2>
+        <div class="selection">
+            <label for="appliance">Select an Appliance:</label>
+            <select id="appliance">
+                <option value="oven">Oven</option>
+                <option value="drink_mixer">Drink Mixer</option>
+                <option value="icecream">Icecream Machine</option>
+            </select>
+        </div>
+        <div class="inputs">
+            <label for="time">Time away (in minutes):</label>
+            <input type="number" id="time" value="1">
+            <label for="number">Number of Appliances:</label>
+            <input type="number" id="number" value="1">
+        </div>
+        <button class="button" onclick="main();">Search</button>
+        <table id="result" class="result">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Profit(per/min)</th>
+                    <th>Dishes Served (per/min)</th>
+                    <th>Time</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>

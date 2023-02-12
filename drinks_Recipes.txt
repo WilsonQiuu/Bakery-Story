@@ -1,0 +1,13 @@
+Coffee 30 110 110 5
+Espresso 250 900 450 240
+Hot_Chocolate 750 3300 825 960
+Latte 3020 7300 730 1440
+Egg_Nog 1580 2900 580 480
+Heart_Coffee 1760 2900 725 240
+Chamomile_Tea 740 1100 275 60
+Sparkling_Cider 1940 3400 850 360
+Mocha 800 1200 300 30
+Love_Potion 4640 11200 1120 1440
+Green_Juice 1320 2100 525 120
+Chocolate Milkshake 2920 5400 1350 480
+Red_Juice 2100 3600 900 300

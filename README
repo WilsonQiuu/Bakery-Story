@@ -1,0 +1,23 @@
+# Bakery Story Calculator
+
+A simple calculator for the popular mobile game, Bakery Story. Keep track of your recipes and ingredients with ease.
+
+## Getting Started
+
+Once you've downloaded the files, simply launch the `bakery.html` file in your browser to start using the Bakery Story Calculator. 
+
+### Adding Recipes
+
+Recipes are stored in an array within the code, so if you want to add additional recipes, you'll need to add them to the recipes array in the code.
+
+### Console App Version
+
+If you prefer a console-based version of the app, there's a `BakeryScriptBETA.js` file included as well. This version reads recipes from a text file.
+you will need to run "npm install readline-sync" in order for the app to read from the txt files
+if you want to add more recipes to the txt files you can add a new line with the following separated by spaces:
+Name, Cost to make, Selling Price, Quantity, Time to make(minutes)
+
+
+## Contributing
+
+This was a personal project created for fun, but contributions are welcome! If you have suggestions or improvements, feel free to fork the repository and make a pull request.

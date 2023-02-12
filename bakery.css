@@ -1,0 +1,111 @@
+body {
+    background-color: #F2E6D9;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.main {
+    background-color: #FFFFFF;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #BBBBBB;
+    width: 90%;
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+h2 {
+    font-size: 36px;
+    color: #8F7A66;
+    margin-bottom: 30px;
+}
+
+.selection,
+.inputs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 18px;
+    color: #8F7A66;
+    margin-right: 10px;
+}
+
+select,
+input[type="number"] {
+    width: 200px;
+    padding: 10px;
+    font-size: 18px;
+    color: #8F7A66;
+    border: 1px solid #BBBBBB;
+    border-radius: 5px;
+    outline: none;
+}
+
+.button {
+    width: 200px;
+    padding: 15px;
+    font-size: 18px;
+    color: #FFFFFF;
+    background-color: #8F7A66;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+    outline: none;
+}
+
+.button:hover {
+    background-color: #716658;
+}
+
+.result {
+    margin-top: 30px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    font-size: 18px;
+    color: #8F7A66;
+    text-align: left;
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+
+
+tr:nth-child(even) {
+    background-color: #F9F5F0;
+}
+
+.selection,
+.inputs,
+.result {
+    margin: 10px;
+    padding: 10px;
+}
+
+.inputs input {
+    max-width: 80%;
+    width: 100%;
+    margin: 10px;
+}
+
+table {
+    width: 100%;
+    margin: 10px auto;
+    border-collapse: collapse;
+}
+
+
+
+th {
+    background-color: #ddd;
+}
